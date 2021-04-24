@@ -18,7 +18,7 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
 import {FormsModule} from "@angular/forms";
 import { BlogHomeComponent } from './components/blog-home/blog-home.component';
 import { FilterPipe } from './pipes/filter.pipe';
-import { SelectizeComponent } from './components/selectize/selectize.component';
+//import { SelectizeComponent } from './components/selectize/selectize.component';
 
 
 @NgModule({
@@ -36,7 +36,7 @@ import { SelectizeComponent } from './components/selectize/selectize.component';
     SearchBarComponent,
     BlogHomeComponent,
     FilterPipe,
-    SelectizeComponent,
+    //SelectizeComponent,
   ],
   imports: [
     BrowserModule,
